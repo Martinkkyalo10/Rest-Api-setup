@@ -1,0 +1,14 @@
+GET http://localhost:5000/users
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+{
+"firstname":"John",
+"lastname":"Doe"
+}
+###
+PATCH http://localhost:5000/users/5d69553736a60d330e6a07a7
+Content-Type: application/json
+{
+“firstname”:”Michael”
+}
